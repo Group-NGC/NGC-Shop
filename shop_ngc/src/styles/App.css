@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  /**/
+  max-width: 1000px;
+  padding: 40px;
+  width: 90%;
+  background: #fff;
+  margin: 40px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(129, 129, 129, 0.1);
+}
+
+.Menu{
+  width: 100%;
+  text-align: center;
+  background: #0c4809;
+  border-radius: 3px;
+}
+
+.Menu button {
+  border: 0;
+  font: inherit;
+  background-color: #0c4809;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+.Menu button:hover {
+  background: #04652d;
+}
