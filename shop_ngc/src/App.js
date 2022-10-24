@@ -3,6 +3,7 @@ import React from 'react';
 import Barra from './components/barraNav';
 
 function App() {
+  
   return (
     <div className="App">
       <Barra 

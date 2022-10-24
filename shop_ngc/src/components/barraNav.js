@@ -11,7 +11,7 @@ const Barra = (props) => {
     let modificar = () => {setMensaje(mensaje = <Modificar/>)}
     let ventas = () => {setMensaje(mensaje = <Ventas/>)}
     let lstClient = () => {setMensaje(mensaje = <ListaCliente/>)}
-    let carrito = () => {setMensaje(mensaje = <Carrito/>)}
+    let carrito = () => {setMensaje(mensaje = <Carrito />)}
     return ( 
         <>
             <nav className='Menu'>

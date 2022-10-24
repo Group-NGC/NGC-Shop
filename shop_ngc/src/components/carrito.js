@@ -1,15 +1,13 @@
 import React from 'react';
-import datos from './productos.json'
+import carro from './jsonCarrito.json'
  const Carrito = () => {
-    let carrito = [];
-    
-    for(let i=0; i<5;i++){
-        carrito.push(datos[i])
-    }
-    
+
+    let total=0;
     return ( 
         <div>
+            
             <h2>Carrito de compras</h2>
+
             <table className='tablaCarrito'>
                 <tbody>
                     <tr>
@@ -19,38 +17,25 @@ import datos from './productos.json'
                         <th>Valor</th>
                         <th>Total</th>
                     </tr>
-                    <tr>
-                        <td><img src='https://cdn-icons-png.flaticon.com/512/1625/1625099.png' alt='Imagen producto' width={45}/></td>
-                        <td>2</td>
-                        <td>Fruta</td>
-                        <td>$50</td>
-                        <td>$100</td>
-                    </tr>
-                    <tr>
-                        <td><img src='https://cdn-icons-png.flaticon.com/512/1625/1625099.png' alt='Imagen producto' width={45}/></td>
-                        <td>1</td>
-                        <td>Vegetal</td>
-                        <td>$50</td>
-                        <td>$50</td>
-                    </tr>
+                    {
+                        carro.map((producto, index)=>{
+                            total += producto.valor * producto.cantidad
+                            return(
+                                <tr key={index}>
+                                    <td><img src={producto.imagen} alt={producto.descripcion} width={45}/></td>
+                                    <td>{producto.cantidad}</td>
+                                    <td>{producto.nombre}</td>
+                                    <td>${producto.valor}</td>
+                                    <td>${producto.valor * producto.cantidad}</td>
+                                </tr>
+                            )
+                        })
+                    }
                 </tbody>
 
-
-                {/* <h3>Carrito de compras</h3>
-                {carrito.length > 0 ?
-            carrito.map((producto, index)=>{
-                return(
-                    <div className='Producto' key={index}>
-                        <p>{producto.name}</p>
-                    </div>
-                )
-            })
-            :
-            <p>Carrito Vacío</p>    
-            } */}
             </table>
             <footer className='totalCarrito'>
-                <p>Total: $</p>
+                <p>Total: ${total}</p>
 
                 <button className='botonCarrito'>Finalizar compra</button>
                 <button className='botonCarrito'>Cancelar</button>
