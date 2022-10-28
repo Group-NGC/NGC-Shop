@@ -28,6 +28,12 @@
 .Menu button:hover {
   background: #04652d;
 }
+.lisventas{
+  text-align: center;
+}
+.theadcampos{
+  text-align: center;
+}
 
 .tablaCarrito{
   font-family: Arial, Helvetica, sans-serif;

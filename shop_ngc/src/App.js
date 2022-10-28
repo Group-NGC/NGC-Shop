@@ -11,7 +11,10 @@ function App() {
       msjmod="Modificar Producto" 
       msjventas="Lista Ventas" 
       msjlstcli="Lista Productos (cliente)" 
-      msjcarrito="Carrito"></Barra>
+      msjcarrito="Carrito"
+      msjrepdf="pdf"
+      ></Barra>
+     
     </div>
   );
 }
