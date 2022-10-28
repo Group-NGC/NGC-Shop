@@ -1,0 +1,14 @@
+.img {
+    width: 60px;
+    margin: 0% 20px;
+}
+
+.productos {
+    width: 150px;
+    height: 150px;
+    margin: 10px 80px 80px 50px;
+    display: flex;
+    align-items: center;
+    
+
+}
