@@ -40,6 +40,7 @@
   padding: 8px;
 }
 .tablaCarrito tr:nth-child(even){background-color: #f2f2f2;}
+.tablaCarrito tr:hover td{background-color: #04AA6D; color: white}
 .tablaCarrito tr:hover {background-color: #ddd;}
 .tablaCarrito th {
   padding-top: 12px;
@@ -70,3 +71,27 @@
 .botonCarrito:hover{
   background-color: #04652d;
 }
+.tablaProducto {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  text-align: left;
+  margin-left: 5%;
+}
+.tablaProducto td, .tablaCarrito th{
+  border: 2px solid #ddd;
+  padding: 8px;
+  border-collapse: collapse;
+}
+.tablaProducto tr:nth-child(even){background-color: #f2f2f2;}
+.tablaProducto tr:hover td{background-color: #04AA6D; color: white}
+.tablaProducto tr:hover {background-color: #ddd;}
+.tablaProducto th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+  border-collapse: collapse;
+}
+
