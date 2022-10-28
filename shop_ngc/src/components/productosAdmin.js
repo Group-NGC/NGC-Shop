@@ -12,7 +12,7 @@ const ListaAdmin = () => {
                          <img className='img' src={produc.imagen} alt={produc.descripcion}  />
                         <p className= 'product_nombre'>{produc.nombre}</p>
                         <p className ='product_valor'>${produc.valor}</p>
-                        <p className ='prodct_stock'>stock:{produc.stock}</p>
+                        <p className ='prodct_stock'>stock{produc.stock}</p>
 
                     </p>
                 )

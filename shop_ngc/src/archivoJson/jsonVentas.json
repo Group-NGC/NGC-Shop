@@ -1,0 +1,43 @@
+[
+    {
+        "id":152,
+        "fecha":"27-09-2022",
+        "cantidad":2,
+        "descripcion":"Manzana",
+        "precio":4400,
+        "total":8800
+        
+       
+    },
+    {
+        "id":242,
+        "fecha":"27-09-2022",
+        "cantidad":4,
+        "descripcion":"Maracuya",
+        "precio":1700,
+        "total":6800
+        
+    },
+
+    {
+        "id":348,
+        "fecha":"27-10-2022",
+        "cantidad":2,
+        "descripcion":"Uvas",
+        "precio":5000,
+        "total":10000
+        
+    },
+    {
+        "id":496,
+        "fecha":"27-11-2022",
+        "cantidad":3,
+        "descripcion":"Tomate de arbol",
+        "precio":2800,
+        "total":8400
+        
+    }
+
+
+
+]
