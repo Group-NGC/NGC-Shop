@@ -1,14 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import carro from './jsonCarrito.json'
  const Carrito = () => {
+    //variables
+    let total = 0
 
-    let total=0;
-    return ( 
-        <div>
-            
-            <h2>Carrito de compras</h2>
-
-            <table className='tablaCarrito'>
+    //useState
+    let [tabla,setTabla]=useState(
+        <table className='tablaCarrito'>
                 <tbody>
                     <tr>
                         <th>Imagen</th>
@@ -34,11 +32,37 @@ import carro from './jsonCarrito.json'
                 </tbody>
 
             </table>
-            <footer className='totalCarrito'>
-                <p>Total: ${total}</p>
+    )
+    let [msjTotal, setMsjTotal] = useState(<p>Total: ${total}</p>)
+    
+    //funciones
+    let cancelar = () =>{
+        total=0
+        setMsjTotal(
+            msjTotal = <p>Total: ${total}</p>
+        )
+        setTabla(
+            tabla = <table className='tablaCarrito'>
+                <tbody>
+                    <tr>
+                        <th>Carrito Vacío</th>
+                    </tr>
+                </tbody>
+            </table>
+        )
+    }
+    
+    return ( 
+        <div>
+            
+            <h2>Carrito de compras</h2>
 
-                <button className='botonCarrito'>Finalizar compra</button>
-                <button className='botonCarrito'>Cancelar</button>
+            {tabla}
+            <footer className='totalCarrito'>
+                {msjTotal}
+
+                <button className='botonCarrito' >Finalizar compra</button>
+                <button className='botonCarrito'onClick={cancelar}>Cancelar</button>
             </footer>
         </div>
      );
