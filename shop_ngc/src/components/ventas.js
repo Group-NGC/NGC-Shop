@@ -36,10 +36,13 @@ const ventas = () => {
                 );
               })}
             </tbody>
-            <tr>
-              <td colspan="5">Precio total</td>
-              <td>&nbsp;&nbsp;$&nbsp;{total}</td>
-            </tr>
+            <tfoot>
+              <tr>
+
+                <td colSpan="5">Precio total</td>
+                <td>&nbsp;&nbsp;$&nbsp;{total}</td>
+              </tr>
+            </tfoot>
           </table>
         </div>
       </div>

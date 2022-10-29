@@ -8,13 +8,13 @@ const ListaAdmin = () => {
         <div className = 'productos'>
             {data.map((produc, index)=> {
                 return(
-                    <p key ={index}>
+                    <div key ={index}>
                          <img className='img' src={produc.imagen} alt={produc.descripcion}  />
                         <p className= 'product_nombre'>{produc.nombre}</p>
                         <p className ='product_valor'>${produc.valor}</p>
                         <p className ='prodct_stock'>stock{produc.stock}</p>
 
-                    </p>
+                    </div>
                 )
             }  
             
