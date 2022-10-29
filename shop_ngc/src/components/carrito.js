@@ -4,19 +4,9 @@ import carro from './jsonCarrito.json'
     //variables
     let total = 0
 
-<<<<<<< HEAD
-    let total=0;
-    return ( 
-        <div>
-            
-            <h2>Carrito de compras</h2>
-            
-            <table className='tablaCarrito'>
-=======
     //useState
     let [tabla,setTabla]=useState(
         <table className='tablaCarrito'>
->>>>>>> 10687511e273bf9d8d5d91fa04829854dce6083a
                 <tbody>
                     <tr>
                         <th>Imagen</th>
@@ -42,15 +32,6 @@ import carro from './jsonCarrito.json'
                 </tbody>
 
             </table>
-<<<<<<< HEAD
-            <footer className='totalCarrito'>
-                <div>
-                <p>Total a Pagar: ${total}</p>
-
-                <button className='botonCarrito'>Finalizar compra</button>
-                <button className='botonCarrito'>Cancelar</button>
-                </div>
-=======
     )
     let [msjTotal, setMsjTotal] = useState(<p>Total: ${total}</p>)
     
@@ -82,7 +63,6 @@ import carro from './jsonCarrito.json'
 
                 <button className='botonCarrito' >Finalizar compra</button>
                 <button className='botonCarrito'onClick={cancelar}>Cancelar</button>
->>>>>>> 10687511e273bf9d8d5d91fa04829854dce6083a
             </footer>
         </div>
      );
