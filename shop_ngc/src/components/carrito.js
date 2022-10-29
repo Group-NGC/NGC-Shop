@@ -7,7 +7,7 @@ import carro from './jsonCarrito.json'
         <div>
             
             <h2>Carrito de compras</h2>
-
+            
             <table className='tablaCarrito'>
                 <tbody>
                     <tr>
@@ -35,10 +35,12 @@ import carro from './jsonCarrito.json'
 
             </table>
             <footer className='totalCarrito'>
-                <p>Total: ${total}</p>
+                <div>
+                <p>Total a Pagar: ${total}</p>
 
                 <button className='botonCarrito'>Finalizar compra</button>
                 <button className='botonCarrito'>Cancelar</button>
+                </div>
             </footer>
         </div>
      );
