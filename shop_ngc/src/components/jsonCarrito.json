@@ -1,7 +1,37 @@
 [
-    {"nombre": "frutas", "imagen":"https://cdn-icons-png.flaticon.com/512/1625/1625099.png", "cantidad":2, "valor":45, "descripcion":"Imagen producto"},
-    {"nombre": "fresa", "imagen":"https://cdn-icons-png.flaticon.com/512/590/590772.png", "cantidad":3, "valor":60, "descripcion":"Imagen producto"},
-    {"nombre": "manzana", "imagen":"https://cdn-icons-png.flaticon.com/512/2909/2909787.png", "cantidad":2, "valor":150, "descripcion":"Imagen producto"},
-    {"nombre": "banano", "imagen":"https://cdn-icons-png.flaticon.com/512/2909/2909808.png", "cantidad":4, "valor":20, "descripcion":"Imagen producto"},
-    {"nombre": "uva", "imagen":"https://cdn-icons-png.flaticon.com/512/765/765560.png", "cantidad":2, "valor":50, "descripcion":"Imagen producto"}
-  ]
+  {
+    "nombre": "Frutas",
+    "imagen":"https://cdn-icons-png.flaticon.com/512/1625/1625099.png",
+    "cantidad":2,
+    "valor":45,
+    "descripcion":"Imagen producto"
+  },
+  {
+    "nombre": "Fresa",
+    "imagen":"https://cdn-icons-png.flaticon.com/512/590/590772.png",
+    "cantidad":3,
+    "valor":60,
+    "descripcion":"Imagen producto"
+  },
+  {
+    "nombre": "Manzana",
+    "imagen":"https://cdn-icons-png.flaticon.com/512/2909/2909787.png",
+    "cantidad":2,
+    "valor":150,
+    "descripcion":"Imagen producto"
+  },
+  {
+    "nombre": "Banano",
+    "imagen":"https://cdn-icons-png.flaticon.com/512/2909/2909808.png",
+    "cantidad":4,
+    "valor":20,
+    "descripcion":"Imagen producto"
+  },
+  {
+    "nombre": "Uva",
+    "imagen":"https://cdn-icons-png.flaticon.com/512/765/765560.png",
+    "cantidad":3,
+    "valor":50,
+    "descripcion":"Imagen producto"
+  }
+]

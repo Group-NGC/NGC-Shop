@@ -15,7 +15,7 @@ const ListaCliente = () => {
                                     <div className='rating-outer'>
                                         <div className='rating_inner'></div>
                                     </div>
-                                    <span id="No_de_opiniones"> 5 Reviews</span>
+                                    <span id="No_de_opiniones"> 5 Reviews </span>
                                 </div>
                                 <p className='card-text'> $6.500 x Kg </p>
                                     
@@ -36,11 +36,9 @@ const ListaCliente = () => {
                                     <div className='rating-outer'>
                                         <div className='rating-inner'></div>
                                     </div>
-                                    <span id="No_de_opiniones"> 5 Reviews</span>
+                                    <span id="No_de_opiniones"> 5 Reviews </span>
                                 </div>
                                 <p className='card-text'> $15.500 x Kg </p>
-                                    
-                                
                             </div>
                         </div>
                     </div>
@@ -57,11 +55,9 @@ const ListaCliente = () => {
                                     <div className='rating-outer'>
                                         <div className='rating-inner'></div>
                                     </div>
-                                    <span id="No_de_opiniones"> 5 Reviews</span>
+                                    <span id="No_de_opiniones"> 5 Reviews </span>
                                 </div>
                                 <p className='card-text'> $2.500 x Kg </p>
-                                    
-                                
                             </div>
                         </div>
                     </div>
@@ -78,11 +74,9 @@ const ListaCliente = () => {
                                     <div className='rating-outer'>
                                         <div className='rating-inner'></div>
                                     </div>
-                                    <span id="No_de_opiniones"> 5 Reviews</span>
+                                    <span id="No_de_opiniones"> 5 Reviews </span>
                                 </div>
                                 <p className='card-text'> $4.000 x Kg </p> 
-                                    
-                                
                             </div>
                         </div>
                     </div>
