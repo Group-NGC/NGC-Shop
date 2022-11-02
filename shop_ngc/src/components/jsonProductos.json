@@ -4,9 +4,4 @@
 {"nombre": "banano", "imagen":"https://cdn-icons-png.flaticon.com/512/2909/2909808.png",  "valor":20, "stock":29, "descripcion":"Imagen producto"}, 
 {"nombre": "uva", "imagen":"https://cdn-icons-png.flaticon.com/512/765/765560.png","valor":50, "stock":35, "descripcion":"Imagen producto"}
 
-
-
-
-
-
 ]
